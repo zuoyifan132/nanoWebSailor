@@ -1,8 +1,8 @@
-# WebSailor: Web Agent with Super-human Reasoning
+# nanoWebSailor: A Re-implementation of WebSailor
 
 ## Project Overview
 
-WebSailor is an open-source implementation based on the paper [《WebSailor: Navigating Super-human Reasoning for Web Agent》](https://arxiv.org/abs/2507.02592), focusing on building web agents with super-human reasoning capabilities. This project implements the core innovations from the paper:
+`nanoWebSailor` is a third-party open-source re-implementation based on the paper [《WebSailor: Navigating Super-human Reasoning for Web Agent》](https://arxiv.org/abs/2507.02592). This project aims to reproduce the core innovations from the paper:
 
 - **SailorFog-QA Data Synthesis**: Generate high-difficulty training data through complex knowledge graphs and information obfuscation techniques
 - **Knowledge Graph Expansion**: Build densely interconnected graph structures starting from rare entities
@@ -46,8 +46,8 @@ WebSailor is an open-source implementation based on the paper [《WebSailor: Nav
 ### Install Dependencies
 ```bash
 # Clone the project
-git clone https://github.com/your-repo/websailor.git
-cd websailor
+git clone https://github.com/your-repo/nanoWebSailor.git
+cd nanoWebSailor
 
 # Install dependencies
 pip install -r requirements.txt
@@ -167,7 +167,7 @@ Generated trajectory files contain:
 ## Project Structure
 
 ```
-webSailor/
+nanoWebSailor/
 ├── websailor/           # Core modules
 │   ├── data_synthesis/  # Data synthesis
 │   │   ├── entity_generator.py      # Entity generator
@@ -200,13 +200,11 @@ webSailor/
 ├── configs/            # Configuration files
 │   └── default_config.yaml          # Default configuration
 ├── data/              # Data directory
-│   ├── generated_entities/          # Generated entities
-│   ├── expanded_graphs/             # Expanded graphs
-│   ├── sampled_subgraphs/           # Sampled subgraphs
-│   ├── generated_qa/                # Generated QA data
-│   └── visual_results/              # Visualization results
 ├── tests/             # Test files
-└── log/               # Log files
+├── log/               # Log files
+├── README.md
+├── requirements.txt
+└── setup.py
 ```
 
 ## Dataset Description
