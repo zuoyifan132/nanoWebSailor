@@ -247,11 +247,14 @@ This project is open-sourced under the Apache 2.0 license.
 
 If you use this project, please cite the original paper:
 ```bibtex
-@article{websailor2025,
-  title={WebSailor: Navigating Super-human Reasoning for Web Agent},
-  author={Li, Kuan and Zhang, Zhongwang and Yin, Huifeng and others},
-  journal={arXiv preprint arXiv:2507.02592},
-  year={2025}
+@misc{li2025websailornavigatingsuperhumanreasoning,
+      title={WebSailor: Navigating Super-human Reasoning for Web Agent}, 
+      author={Kuan Li and Zhongwang Zhang and Huifeng Yin and Liwen Zhang and Litu Ou and Jialong Wu and Wenbiao Yin and Baixuan Li and Zhengwei Tao and Xinyu Wang and Weizhou Shen and Junkai Zhang and Dingchu Zhang and Xixi Wu and Yong Jiang and Ming Yan and Pengjun Xie and Fei Huang and Jingren Zhou},
+      year={2025},
+      eprint={2507.02592},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.02592}, 
 }
 ```
 
